@@ -36,4 +36,4 @@ EXPOSE 3000
 
 # build and then run it
 WORKDIR /app/source
-ENTRYPOINT ["./bin/start"]
+CMD ["./bin/start"]
